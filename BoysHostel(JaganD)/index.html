@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boy's Hostel</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="home"></ion-icon>
+
+              <span>24/7 with free wifi </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="warning"></ion-icon>
+
+              <address>Strictly Drinks and Drugs are not allowed</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <button class="header-top-btn">Login</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="Homeverse logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="Homeverse logo">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+              </li>
+
+              <li>
+                <a href="about.html" class="navbar-link" data-nav-link>About Us</a>
+              </li>
+
+              <li>
+                <a href="rooms.html" class="navbar-link" data-nav-link>Rooms</a>
+              </li>
+
+              <li>
+                <a href="events.html" class="navbar-link" data-nav-link>Events</a>
+              </li>
+
+              <li>
+                <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+          <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+
+            <span>Search</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <ion-icon name="heart-outline"></ion-icon>
+
+            <span>Liked</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h2 class="h1 hero-title">We Provide a more <br>Hyginic Rooms</h2>
+
+            <p class="hero-text">
+              connect with new friend and enjoy the joyful moments by explore a new games and activity.
+            </p>
+
+            <button class="btn">Make An Enquiry</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" alt="Modern house model" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="section__container booking__container" data-aos="zoom-out-up">
+        <form action="/" class="booking__form">
+          <div class="input__group">
+            <span><ion-icon name="calendar-outline"></ion-icon></span>
+            <div>
+              <label for="check-in">CHECK-IN</label>
+              <input type="text" placeholder="DD/MM/YYYY" />
+            </div>
+          </div>
+          <div class="input__group">
+            <span><ion-icon name="calendar-outline"></ion-icon></span>
+            <div>
+              <label for="check-out">CHECK-OUT</label>
+              <input type="text" placeholder="DD/MM/YYYY" />
+            </div>
+          </div>
+          <div class="input__group">
+            <span><ion-icon name="person-outline"></ion-icon></span>
+            <div>
+              <label for="guest">GUEST</label>
+              <input type="text" placeholder="Boys only" />
+            </div>
+          </div>
+          <div class="input__group input__btn">
+            <button class="btn">BooK Now</button>
+          </div>
+        </form>
+      </section>
+      <section class="service" id="service">
+        <div class="container">
+
+          <p class="section-subtitle" data-aos="zoom-out">Facilities</p>
+
+          <h2 class="h2 section-title" data-aos="zoom-out">Core Features</h2>
+
+          <ul class="service-list">
+
+            <li data-aos="zoom-in-up">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <span><ion-icon name="location-outline"></ion-icon></span>
+                </div>
+                <h3 class="h3 card-title">
+                  <a href="#">Best Location</a>
+                </h3>
+
+                <p class="card-text">
+                  At our hostel, we provide a accommodations in the most safety and perfect locations.
+                </p>
+
+                <a href="rooms.html" class="card-link">
+                  <span>Find A Room</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li data-aos="zoom-in-up">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <span><ion-icon name="star"></ion-icon></span>
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Have High Rating</a>
+                </h3>
+
+                <p class="card-text">
+                  Our hostels that consistently receive high ratings and positive reviews.
+                </p>
+
+                <a href="rooms.html" class="card-link">
+                  <span>Find A Room</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li data-aos="zoom-in-up">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <span><ion-icon name="time"></ion-icon></span>
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Quite Hours</a>
+                </h3>
+
+                <p class="card-text">
+                  Our hostels that consistently receive high ratings and positive reviews.
+                </p>
+
+                <a href="rooms.html" class="card-link">
+                  <span>Find A Rome</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+
+          <p class="section-subtitle" data-aos="zoom-out">Our Facilities</p>
+
+          <h2 class="h2 section-title" data-aos="zoom-out">Hostel Facilities</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <a href="#" class="features-card" data-aos="fade-up-right">
+
+                <div class="card-icon">
+                  <ion-icon name="car-sport-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Parking Space</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card" data-aos="fade-up-right">
+
+                <div class="card-icon">
+                  <ion-icon name="wifi-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Free Wifi</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card" data-aos="fade-up-left">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Private Security</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card" data-aos="fade-up-left">
+
+                <div class="card-icon">
+                  <ion-icon name="fitness-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Medical Center</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card" data-aos="fade-down-right">
+
+                <div class="card-icon">
+                  <ion-icon name="library-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Library Area</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card" data-aos="fade-down-right">
+
+                <div class="card-icon">
+                  <ion-icon name="bed-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Hyginic cots</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card" data-aos="fade-down-left">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">24/7 Electricity</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card" data-aos="fade-down-left">
+
+                <div class="card-icon">
+                  <ion-icon name="football-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Play Area</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="section__container menu__container">
+
+          <p class="section-subtitle" data-aos="zoom-out">Menu</p>
+
+          <h2 class="h2 section-title" data-aos="zoom-out">Our Food Menu</h2>
+
+
+
+          <ul class="menu__items">
+            <li data-aos="fade-up-right">
+              <img src="./assets/images/idly.png" alt="menu" />
+              <div class="menu__details">
+                <h4>Idly & Dosa</h4>
+                <p>
+                  A classic choice for your daily dose of comfort and calmness.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up-left">
+              <img src="./assets/images/tea.png" alt="menu" />
+              <div class="menu__details">
+                <h4>Tea or Coffee</h4>
+                <p>
+                  A classic choice for your daily dose of comfort and calmness.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up-right">
+              <img src="./assets/images/lunch.png" alt="menu" />
+              <div class="menu__details">
+                <h4>Veg/Non-veg meals</h4>
+                <p>
+                  A classic choice for your daily dose of comfort and calmness.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up-left">
+              <img src="./assets/images/pongal.png" alt="menu" />
+              <div class="menu__details">
+                <h4>Pongal</h4>
+                <p>
+                  A classic choice for your daily dose of comfort and calmness.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up-right">
+              <img src="./assets/images/chapptai.png" alt="menu" />
+              <div class="menu__details">
+                <h4>Chappati</h4>
+                <p>
+                  A classic choice for your daily dose of comfort and calmness.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up-left">
+              <img src="./assets/images/snacks.png" alt="menu" />
+              <div class="menu__details">
+                <h4>Evening snacks</h4>
+                <p>
+                  A classic choice for your daily dose of comfort and calmness.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle" data-aos="zoom-out">Images</p>
+
+          <h2 class="h2 section-title" data-aos="zoom-out">Leatest News & Images</h2>
+
+          <ul class="blog-list has-scrollbar" data-aos="zoom-out-up">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-1.png" alt="The Most Inspiring Interior Design Of 2021" class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">The Comfortable rooms</a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+
+                      <time datetime="2022-27-04">Aug 13, 2024</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-2.jpg" alt="Recent Commercial Real Estate Transactions" class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">The Hyginic Dining rooms</a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+
+                      <time datetime="2022-27-04">Aug 13, 2024</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-3.jpg" alt="Renovating a Living Room? Experts Share Their Secrets"
+                    class="w-100">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-content-top">
+
+                    <ul class="card-meta-list">
+
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3 blog-title">
+                      <a href="#">The peaceful study rooms</a>
+                    </h3>
+
+                  </div>
+
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+
+                      <time datetime="2022-27-04">Aug 13, 2024</time>
+                    </div>
+
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+    - #FOOTER
+  -->
+      <footer class="footer">
+
+        <div class="footer-top">
+          <div class="container">
+
+            <div class="footer-brand">
+
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.png" alt="Homeverse logo">
+              </a>
+
+              <p class="section-text">
+                We provide top class hostel rooms for men's with high quality foods.
+              </p>
+
+              <ul class="contact-list">
+
+                <li>
+                  <a href="#" class="contact-link">
+                    <ion-icon name="location-outline"></ion-icon>
+
+                    <address>Chennai,Tamilnadu</address>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="tel:+0123456789" class="contact-link">
+                    <ion-icon name="call-outline"></ion-icon>
+
+                    <span>123456789</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="mailto:contact@homeverse.com" class="contact-link">
+                    <ion-icon name="mail-outline"></ion-icon>
+
+                    <span>contact@boyhostel.com</span>
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="social-list">
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="footer-link-box">
+
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Quick Links</p>
+                </li>
+
+                <li>
+                  <a href="index.html" class="footer-link">Home</a>
+                </li>
+
+                <li>
+                  <a href="about.html" class="footer-link">About Us</a>
+                </li>
+
+                <li>
+                  <a href="rooms.html" class="footer-link">Rooms</a>
+                </li>
+
+                <li>
+                  <a href="events.html" class="footer-link">Events</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="navbar-link">Contact</a>
+                </li>
+
+              </ul>
+
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Branch</p>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">Ooty</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">Wayanadu</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">Nilgiri</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">Madurai</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+
+            <p class="copyright">
+              &copy; 2024 <a href="#">boy'shostel</a>. All Rights Reserved
+            </p>
+
+          </div>
+        </div>
+
+      </footer>
+
+      <script src="./assets/js/script.js"></script>
+
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+</body>
+
+</html>
